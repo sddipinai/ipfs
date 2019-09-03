@@ -96,7 +96,7 @@ IPFS follows the [Contributor Covenant](http://contributor-covenant.org/version/
 ### Contributors
 
 This project exists thanks to all the people who contribute. 
-<a href="graphs/contributors"><img src="https://avatars2.githubusercontent.com/u/47121822?s=60&v=4" /></a>
+[Contributors] (https://github.com/sddipinai/ipfs/graphs/contributors).
 
 
 ## License
