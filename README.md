@@ -32,7 +32,7 @@ IPFS is designed for open source libraries. Although it’s [historically](#back
 
 ## Background
 
-Standard Readme started with the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141), about whether or not a tool to standardize readmes would be useful. A lot of that discussion ended up in [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes across that organization. This specification started as a result of that.
+IPFS (https://github.com/sddipinai/ipfs) started when I was looking for a dentist to perform a root canal on my molar.  I wanted to get quotes and see what were my options and soon discovered that dental insurance has its limitations and con artists.  Your great insurance can be easily depleted with xrays and just add procedures without you having control.  [IPFS](https://github.com/sddipinai/ipfs) repository, attempts to give you some control over your data and who you can share it with. This specification started as a result of that.  The question is why can't you have a set of xrays with dates and procedures that you have legal right to view and share with whichever dentist you wish.  Wouldn't that cut down the depletion of your charges and cost of procedures and also give you a high confidence of your dental assets and their cost?
 
 > Your documentation is complete when someone can use your module without ever
 having to look at its code. This is very important. This makes it possible for
@@ -50,8 +50,8 @@ As well, standardizing can help elsewhere. By having a standard, users can spend
 
 The goals for this repository are:
 
-1. A well defined **specification**. This can be found in the [Spec document](spec.md). It is a constant work in progress; please open issues to discuss changes.
-2. **An example README**. This Readme is fully standard-readme compliant, and there are more examples in the `example-readmes` folder.
+1. A well defined **specification**. This can be found in the [Dental Spec document](dental_spec.md). It is a constant work in progress; please open issues to discuss changes.
+2. **An example DentalCheatsheet** [Dental Cheatsheet] (dental_cheatsheet.md). Please check out the sample-cheatsheet [DentalCheatsheet] (dental_cheatsheet.md), and the other samples provided  in the `sample-cheatsheets` folder.
 3. A **linter** that can be used to look at errors in a given Readme. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5).
 4. A **generator** that can be used to quickly scaffold out new READMEs. See [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme).
 5. A **compliant badge** for users. See [the badge](#badge).
