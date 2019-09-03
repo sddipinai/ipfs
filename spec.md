@@ -1,18 +1,17 @@
 # IPFS application Repository
 
-(https://github.com/sddipinai/ipfs/README.md)
+(https://github.com/sddipinai/ipfs/spec.md)
 
-> README
+> Specification
 
-This ipfs application provides a simple IPFS app which allows you to upload image and keep a log of your own dental images.  If keeps log of the physician and the date the image was taken.  It becomes a cheatsheet of the dental work you have had within a given time.  It also allows you to be able to provide this information to your dentist in case you move to another location.  The cost of xrays and redoing xrays would be kept down.
+This is the spec document for the IPFS dental application.
 
-This repository contains:
+The spec has a directory `spec` which contains:
 
-1. [The specification](spec.md) for how your standard dental cheatsheet should look.
-2. A link to a linter you can use to keep your README maintained ([work in progress](https://github.com/sddipinai/ipfs/issues/5)).
-3. A link to [a generator](https://github.com/sddipinai/ipfs/dental/generator) you can use to create a dental cheatsheet.
+1. [database spec] (https://github.com/sddipinai/spec/database/spec_db.md) for the layout of the ipfs dental db metadata.
+2. [file layout] (https//github.com/sddipinai/spec/files/file_layout.md)([work in progress]).A link to a linter you can use to keep your README maintained ([work in progress]).
+3. [IPFS api] (https://github.com/sddipinai/ipfs/spec/api.md) The api spec gives you a guide on how to use he api to generate dental cheatsheet in your application.
 4. [A badge](#badge) to point to this spec.
-5. [Examples of ipfs dental cheatsheets](sample-ipfs/).
 
 IPFS is designed for open source libraries. Although it’s [historically](#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
 
@@ -22,9 +21,9 @@ IPFS is designed for open source libraries. Although it’s [historically](#back
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
-	- [Generator](#generator)
+	- [APIs](#apis)
 - [Badge](#badge)
-- [Example IPFS Cheatsheet](#sample-ipfs)
+- [Example IPFS Cheatsheet](#sample-cheatsheets)
 - [Related Efforts](#related-efforts)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
@@ -51,9 +50,9 @@ As well, standardizing can help elsewhere. By having a standard, users can spend
 The goals for this repository are:
 
 1. A well defined **specification**. This can be found in the [Spec document](spec.md). It is a constant work in progress; please open issues to discuss changes.
-2. **An example README**. This Readme is fully standard-readme compliant, and there are more examples in the `example-readmes` folder.
+2. **Sample cheatsheets**. Sample IPFS Dental Cheatsheets in the `sample-cheatsheetss` folder.
 3. A **linter** that can be used to look at errors in a given Readme. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5).
-4. A **generator** that can be used to quickly scaffold out new READMEs. See [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme).
+4. The **apis** that can be used to quickly scaffold out new IPFs dental cheatsheets. See [sample-cheatseets directory ](https://github.com/sddipinai/ipfs/sample-cheatsheets).
 5. A **compliant badge** for users. See [the badge](#badge).
 
 ## Install
@@ -61,37 +60,37 @@ The goals for this repository are:
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
 ```sh
-$ npm install --global standard-readme-spec
+$ git clone https://github.com/sddipinai/ipfs 
+$ cd ipfs
+$ npm install 
 ```
 
 ## Usage
 
 This is only a documentation package. You can print out [spec.md](spec.md) to your console:
 
-```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
-```
+GOTO localhost:3000\spec.md
+To view the spec
 
-### Generator
+### apis
 
 To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
 
 ## Badge
 
-If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
+If your README is compliant with the `sample-cheatsheets` provided and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![README](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/sddipinai/README)
 
 To add in Markdown format, use this code:
 
 ```
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![README compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/sddipinai/README)
 ```
 
-## Example Readmes
+## Example ipfs dental cheatsheets
 
-To see how the specification has been applied, see the [example-readmes](example-readmes/).
+To see how the specification has been applied, see the [sa,[;e-cheatsheets](sample-cheatsheets/).
 
 ## Related Efforts
 
@@ -100,13 +99,13 @@ To see how the specification has been applied, see the [example-readmes](example
 
 ## Maintainers
 
-[@RichardLitt](https://github.com/RichardLitt).
+[@sddipinai](https://github.com/sddipinai.
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/sddipinai/ipfs/issues/new) or submit PRs.
 
-Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
+IPFS dental cheatsheet follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
 
 ### Contributors
 
@@ -116,4 +115,4 @@ This project exists thanks to all the people who contribute.
 
 ## License
 
-[MIT](LICENSE) © Richard Littauer
+[MIT](LICENSE) © Ileana DiPina
